@@ -1,0 +1,100 @@
+.box1{
+    background-image: radial-gradient(red,green);
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+
+.box2{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    float: right;
+    clear: left;
+}
+.box3{
+    width: 200px;
+    height: 200px;
+    background-image: linear-gradient(to left,rgb(0, 238, 255),rgb(255, 102, 0));
+    clear: right;
+    float: left;
+}
+.box4{
+    width: 200px;
+    height: 200px;
+    background-image: radial-gradient(circle,rgb(131, 179, 131),rgb(1, 1, 7));
+    clear: left;
+    float: right;
+}
+
+.boxx1{
+    width: 200px;
+    height: 200px;
+    background-image: linear-gradient(to right,red,green);
+    float: left;
+    clear:right;
+}
+
+
+.boxx2{
+    width: 200px;
+    height: 200px;
+    background-image: radial-gradient(blue,rgb(255, 0, 191));
+   
+    float: right;
+    clear: left;
+
+}
+
+.boxsize{
+    width: 200px;
+    height: 200px;
+
+    margin: 20px;
+    padding: 20px;
+
+   
+
+}
+
+.size1{
+    background-color: blue;
+    border: 2px solid black;
+    box-sizing: border-box;
+
+    position: absolute;
+    left:30%
+
+}
+
+.size2{
+    background-color: darkgreen;
+    border: 1px solid red;
+    box-sizing: content-box;
+
+    position: absolute;
+    top: 70%;
+    left:30%
+}
+
+.index1{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    color: white;
+
+    position: absolute;
+    left: 45%;
+    top: 40%;
+  z-index: 1;
+}
+
+.index2{
+    width: 200px;
+    height: 200px;
+   background-color: blueviolet;
+   color: white;
+   position: absolute;
+    left: 50%;
+    top: 50%;
+}
